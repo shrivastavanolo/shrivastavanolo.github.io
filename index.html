@@ -1,7 +1,751 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+<div class="" tabindex=""><div><style type="text/css" id="static">
+    /*Font support for MAC*/
+    @font-face{font-family:'Century Gothic';font-weight:normal;font-style:normal;src:local('Century Gothic'),url('/blobcontent/zty/fonts/CenturyGothic.ttf') format('truetype')}
+    @font-face{font-family:'Century Gothic';font-weight:bold;font-style:normal;src:local('Century Gothic Bold'),url('/blobcontent/zty/fonts/CenturyGothicBold.ttf') format('truetype')}
+    @font-face{font-family:'Century Gothic';font-weight:bold;font-style:italic;src:local('Century Gothic Bold Italic'),url('/blobcontent/zty/fonts/CenturyGothicBoldItalic.ttf') format('truetype')}
+    @font-face{font-family:'Century Gothic';font-weight:normal;font-style:italic;src:local('Century Gothic Italic'),url('/blobcontent/zty/fonts/CenturyGothicItalic.ttf') format('truetype')}
+
+    html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent}
+    body{line-height:1;text-align:left;font-feature-settings:"liga" 0;-moz-font-feature-settings:"liga" off}
+    .skn-trz6 ol,.skn-trz6 ul{list-style:none}
+    .skn-trz6 table{border-collapse:collapse;border-spacing:0;font-size:inherit;color:inherit;width:100%}
+
+    /*START content disc style for LI*/
+    .skn-trz6 ul,.skn-trz6 li{margin:0;padding:0;list-style-type:disc}
+    .skn-trz6 ul li{margin:0 0 0 16px;padding:0}
+    @-moz-document url-prefix() {.skn-trz6 ul li{margin:0 0 0 12px;padding:0 0 0 3px}}
+    /*END content disc style for LI*/
+
+    /*common style*/
+    .skn-trz6 .txtBold{font-weight:bold}
+    .skn-trz6 .paddedline{display:block}
+    .skn-trz6 .pt5{padding-top:5px}
+    .skn-trz6 .pb5{padding-bottom:5px}
+    .skn-trz6 .word-break{word-wrap:break-word}
+    .skn-trz6 .disp-n{display:none}/*For resume title - to be remove later*/
+
+    /* table skills */
+    .skn-trz6 table.skills,.table_wrapper{width:100%;margin-top:0;word-wrap:break-word}
+    .skn-trz6 table.skills th,table.skills td{width:20%;text-align:center}
+    .skn-trz6 table.skills .skillname,.skn-trz6 table.skills .skillrating{text-align:left;width:35%}
+    .skn-trz6 table.skills .skillrating{width:20%}
+    .skn-trz6 table.skills .skillyears,.skn-trz6 table.skills .skilllast{width:19%}
+    .skn-trz6 table.skills .pad1{width:5%}
+    .skn-trz6 .skills .pad2,.skn-trz6 table.skills .pad3{width:1%}
+
+    /* document */
+    .skn-trz6{box-sizing:border-box;padding:20px 20px 20px 0;border-left:85px solid transparent!important;color:#343434;font-variant-ligatures:none;line-height:16px;min-height:792px}
+    .skn-trz6 .name{color:#373d48;font-weight:700;text-align:left;display:table-cell;min-height:86px;padding-bottom:10px;width:100%;max-width:100%;display:inline-block}
+    .skn-trz6 .address .singlecolumn{margin-left:0!important}
+    .skn-trz6 .degreeGap{margin-bottom:4px}
+    .skn-trz6 .locationGap{margin-top:4px}
+    .skn-trz6 .heading{font-weight:700;margin-bottom:10px;position:relative}
+    .skn-trz6 .sectiontitle{color:#373d48;line-height:21px;word-wrap:break-word}
+    .skn-trz6 .firstparagraph{padding-top:0!important}
+    .skn-trz6 .parentContainer{border-collapse:collapse;display:table;min-height:inherit;table-layout:fixed;width:150%}
+
+    /*monogram*/
+    .skn-trz6 .monogram{position:absolute;left:-103px;top:0;bottom:0}
+    .skn-trz6 .monogram svg text{font-size:28px;font-style:italic;font-weight:400;text-transform:lowercase}
+
+    /*leftBox and rightBox css*/
+    .skn-trz6 .left-box,.skn-trz6 .right-box{box-sizing:initial;display:table-cell;padding-left:15px;vertical-align:top}
+    .skn-trz6 .left-box .firstsection{margin:0;padding:0;min-height:101px}
+    .skn-trz6 .left-box .paddedline.date-content{position:absolute;margin-left:0;width:65px;left:-97px}
+    .skn-trz6 .paragraph,.skn-trz6 .left-box .singlecolumn{position:relative}
+    .skn-trz6 .left-box .paragraph{margin-left:0}
+    .skn-trz6 .section:empty,.skn-trz6 .hide-bar .noLnht,.skn-trz6 .hide-bar .field-ratt, .skn-trz6 .hide-bar .ratingWrapper .paddedline{display:none}
+    .skn-trz6 .left-box .section{border-left:1px solid #d7d7d7;margin-left:12px;padding-left:25px;position:relative}
+    .skn-trz6 .left-box{padding-left:0;padding-right:15px}
+    .skn-trz6 .left-box > .section:first-child{border:0}
+
+    .skn-trz6 .firstsection + .section:before{border:1px solid #fff;content:'';left:-1px;position:absolute;top:0}
+    .skn-trz6 .left-box .singlecolumn:before{background:#373d48;border:0;border-radius:100%;content:"";display:block;height:8px;left:-29px;position:absolute;width:8px;z-index:2}
+    .skn-trz6 .right-box .sectiontitle{padding-left:35px}
+    .skn-trz6 .headingIcon svg circle,.skn-trz6 .monogram svg circle{fill:#373d48}
+
+    /*Personal details section*/
+    .skn-trz6 .details-wrap{margin-bottom:5px} 
+    .skn-trz6 .details-wrap:last-child{margin-bottom:0}  
+    .skn-trz6 .pdet-sec .headingIcon svg path{fill:transparent;stroke:#fff}
+
+
+    /* Icon */
+    .skn-trz6 .headingIcon svg{width:30px;height:30px}
+    .skn-trz6 .headingIcon{z-index:4}
+    .skn-trz6 .left-box .headingIcon{left:-40px;position:absolute}
+    .skn-trz6 .right-box .headingIcon{left:0;position:absolute}
+    .skn-trz6 .headingIcon svg path{fill:#fff}
+    .skn-trz6 .ratingWrapper{text-align:right}
+    .skn-trz6 .ratingWrapper .noLnht{line-height:0}
+    .skn-trz6 .ratingWrapper svg{height:13px}
+
+    /* Issues fix for builder page */
+    #displayResume div.skn-trz6.document{min-height:792px}
+    .skn-trz6 > div{min-height:inherit}
+    .skn-trz6 > div:not(.topsection),.skn-trz6 > div:not(.parentContainer){min-height:auto}
+    .skn-trz6 .right-box > .sortable-item:first-child .section{padding-top:10px!important}
+    .skn-trz6 .SortableInner > .sortable-item:last-of-type .singlecolumn > .pb5{margin-bottom:0}
+    .skn-trz6 .left-box > .sortable-item:first-child .section,.skn-trz6 .right-box > .sortable-item:first-child .section{padding-top:0}
+    .skn-trz6 .left-box .sortable-item:first-child > .section{border:0}
+    .skn-trz6 .left-box .sortable-item:first-child + .sortable-item > .section{padding-top:0!important}
+    .skn-trz6 .ratingWrapper .default-fill{fill:#373d48}
+    .skn-trz6 .sortable-item .ratingWrapper span{top:0;line-height:inherit}
+    .finalize-resume-preview.TRZ6 > .skn-trz6{border:1px solid #e3e7e9!important;}
+    .finalize-resume-preview.TRZ6 > .skn-trz6 .left-box{padding-left:85px}
+
+    /* Only for firefox */
+    @-moz-document url-prefix(){.skn-trz6 .parentContainer{height:1px}}
+
+    .skn-trz6 .resumeTitle{font-weight:normal}   
+
+    /*PICT*/
+    .skn-trz6 .prflPic,.skn-trz6 .prflPic > div{width:155px;height:155px}
+    .skn-trz6 .prflPic img{min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover}
+
+    .skn-trz6 .beforecolonspace{display:none!important}
+    .skn-trz6.show-colon-space .beforecolonspace{display:inline!important}
+
+    .skn-trz6 .multi-hilt .paddedline{display:table-cell;width:50%;padding-left:7px}
+    .skn-trz6 .multi-hilt .paddedline:first-child{padding-left:0;padding-right:7px}
+    .skn-trz6 .multi-hilt ul li:before{display:none}
+    .skn-trz6 .multi-hilt .singlecolumn{display:table;table-layout:fixed;width:100%}
+    .skn-trz6 .right-box .multi-hilt .paddedline{display:block;width:100%;padding:0}
+    .skn-trz6 .multi-hilt ul li:last-child{margin-bottom:0}
+    .skn-trz6 .multi-hilt ul li,.skn-trz6 .right-box .multi-hilt .skill:first-child ul li:last-child{margin-bottom:5px}
+
+    /* For PDF HILT */
+    .skn-trz6.for-pdf{min-height:auto}        
+    .skn-trz6.for-pdf .parentContainer{display:block}
+    .skn-trz6.for-pdf .parentContainer .left-box{display:block;float:left;width:calc(100% - 185px)}
+    .skn-trz6.for-pdf .parentContainer .right-box{display:block;float:right}
+
+    .skn-trz6.for-pdf .left-box .paragraph.multi-hilt .singlecolumn{display:block}
+    .skn-trz6.for-pdf .left-box .paragraph.multi-hilt .singlecolumn .paddedline{display:block;width:48%}
+    .skn-trz6.for-pdf .left-box .paragraph.multi-hilt .singlecolumn:after{content:'';clear:both;display:table}
+    .skn-trz6.for-pdf .left-box .paragraph.multi-hilt .singlecolumn .paddedline:first-child{float:left;padding-right:0}
+    .skn-trz6.for-pdf .left-box .paragraph.multi-hilt .singlecolumn .paddedline:last-child{float:right;padding-left:0}
+
+    /* Languages Starts Here */
+    .skn-trz6 .beforecolonspace{display:none!important}
+    .skn-trz6.show-colon-space .beforecolonspace{display:inline!important}    
+
+    /*Static CSS - common wider box*/
+    .skn-trz6 .common-lngg-skli{padding-left:0px;display:flex;flex-wrap:wrap;justify-content:space-between}
+    .skn-trz6 .common-lngg-skli .singlecolumn{display:none;margin:0!important}
+    .skn-trz6 .common-lngg-skli.infobarsec .infobarpara,.skn-trz6 .common-lngg-skli.infotilesec .infotilepara{display:block}
+    .skn-trz6 .common-lngg-skli .rating-level{width:15%;text-align:right}    
+    .skn-trz6 .common-lngg-skli .sliced-rect .sliced-rect-tile{height:100%;background-color:#d5d6d6;float:left;margin-right:3px}
+    .skn-trz6 .common-lngg-skli .sliced-rect .sliced-rect-tile:last-child{margin-right:0}
+    .skn-trz6 .common-lngg-skli .sliced-rect,.skn-trz6 .common-lngg-skli .rating-bar{margin-top:4px;margin-bottom:2px}
+    .skn-trz6 .common-lngg-skli .lang-space{display:flex;flex-wrap:wrap;justify-content:space-between;word-break:break-word;align-items:flex-end}        
+    .skn-trz6 .common-lngg-skli .paragraph{width:100%;padding-bottom:0}
+    .skn-trz6 .common-lngg-skli .paragraph:nth-last-child(1){margin-bottom:0}
+    .skn-trz6 .common-lngg-skli .nativeLangPara.paragraph{width:100%!important;max-width:100%}
+    .skn-trz6 .common-lngg-skli.infobarsec .field .colon,.skn-trz6 .common-lngg-skli.infotilesec .field .colon{display:none}
+    .skn-trz6 .common-lngg-skli.infobarsec .field:first-child .colon,.skn-trz6 .common-lngg-skli.infotilesec .field:first-child .colon,.skn-trz6 .common-lngg-skli .field *,.skn-trz6 .common-lngg-skli .nativeLangPara .field{display:inline}
+    .skn-trz6 .common-lngg-skli .sliced-rect,.skn-trz6 .common-lngg-skli .inner-rating{height:7px}
+       
+
+    /*Static CSS - only Bar wider box*/
+    .skn-trz6 .common-lngg-skli.hide-bar .rating-bar,.skn-trz6 .common-lngg-skli.hide-bar .sliced-rect,.skn-trz6 .common-lngg-skli.hide-only-bar .rating-bar,.skn-trz6 .common-lngg-skli.hide-only-bar.infotilesec .sliced-rect,.skn-trz6 .common-lngg-skli.hide-bar .circle-parent,.skn-trz6 .common-lngg-skli.hide-only-bar .circle-parent{display:none!important}
+    .skn-trz6 .common-lngg-skli .rating-bar{background:#d5d6d6;page-break-inside:avoid}
+    .skn-trz6 .common-lngg-skli .inner-rating,.skn-trz6 .common-lngg-skli .sliced-rect .sliced-rect-tile.ratvfill{background:#002e58}
+    .skn-trz6 .common-lngg-skli.hide-bar .fielditem-ratt{display:none}
+
+    /*Static CSS - narrow box common*/
+    .skn-trz6 .right-box .common-lngg-skli{padding-left:0;display:block}
+    .skn-trz6 .right-box .common-lngg-skli .heading{margin-left:0;width:100%}
+    .skn-trz6 .right-box .common-lngg-skli .paragraph{width:100%}
+    .skn-trz6 .right-box .common-lngg-skli .paragraph:nth-last-child(1){margin-bottom:0;padding-bottom:0}  
+    /* Languages Ends Here */  
+
+    .skn-trz6 .circle{height:8px;width:8px;margin-right:2px;background:#d5d6d6}
+   
+    .skn-trz6 .circle-parent {display:flex;flex-direction:row;justify-content:end;margin-top:3px}
+    .skn-trz6 .left-box .infocirclesec .paragraph{width:100%;display:inline-block;vertical-align:top}
+    .skn-trz6 .left-box .infocirclesec .paragraph .singlecolumn span{display:inline}
+    .skn-trz6 .skli-sec.infocirclesec .infocirclepara .field *,.skn-trz6 .lang-sec.infocirclesec .infocirclepara .field *{display:inline}
+    .skn-trz6 .skli-sec.infocirclesec .infocirclepara,.skn-trz6 .lang-sec.infocirclesec .infocirclepara{display:block}
+    .skn-trz6 .left-box .common-lngg-skli .firstparagraph .singlecolumn:before{background:#373d48;border:0;border-radius:100%;content:"";display:block;height:8px;left:-29px;position:absolute;width:8px;z-index:2}
+
+    .skn-trz6 .common-lngg-skli .nativeLangPara .lang-space .colon{display:inline !important;font-weight:bold}
+    .skn-trz6 .common-lngg-skli.hide-colon .lang-space .colon,.skn-trz6 .hide-bar .fielditem-ratt,.skn-trz6 .common-lngg-skli.hide-bar .brkt{display:none !important}
+    .skn-trz6 .common-lngg-skli .ratingWrapper{text-align:right}
+    .skn-trz6 .nativeLangPara .ratingWrapper,.skn-trz6 .common-lngg-skli.hide-bar .nativeLangPara .fielditem-ratt,.skn-trz6 .common-lngg-skli.hide-bar .nativeLangPara .field-ratt{display:inline !important;float:none}
+    .skn-trz6 .nativeLangPara .rating-heading span{font-weight:bold}
+    .skn-trz6 .lang-space .colon,.skn-trz6 .hide-bar .field-ratt{display:none !important}
+    .skn-trz6 .common-lngg-skli .field .colon,.skn-trz6 .common-lngg-skli.hide-colon .lang-space .colon{display:none !important}
+    .skn-trz6 .infobarpara .ratingWrapper,.skn-trz6 .infotilepara .ratingWrapper{float:right;width:48%;text-align:right}
+    .skn-trz6 .nativeLangPara .ratingWrapper{display:inline;float:none}
+    /* GRYR */
+    .skn-trz6 .displayNoneThisField{display:none}/* Keep this class always at bottom */
+
+    /* Builder css */
+    .skn-trz6 .left-box .common-lngg-skli .sortableInner{display:flex;flex-wrap:wrap;width:100%;justify-content:space-between;flex-direction:column}
+    .skn-trz6 .left-box .common-lngg-skli .doc-item, .skn-trz6 .left-box .common-lngg-skli .sortableInner .sortable-item .paragraph, .skn-trz6 .right-box .common-lngg-skli .sortableInner .sortable-item,.skn-trz6 .left-box .common-lngg-skli .sortableInner .sortable-item.native-lang{width:100%}
+    .skn-trz6 .right-box .common-lngg-skli .sortableInner > .sortable-item:nth-last-child(1) .paragraph{margin-bottom:0}
+    .skn-trz6 .common-lngg-skli .sortableInner .sortable-item .nativeLangPara .rating-heading{font-weight:bold}
+
+    /*PDF Fix*/
+    .skn-trz6.for-pdf .common-lngg-skli{display:block}
+    .skn-trz6.for-pdf .common-lngg-skli .paragraph:not(.nativeLangPara) .lang-space,.skn-trz6.for-pdf .common-lngg-skli .circle-parent{display:block}
+    .skn-trz6.for-pdf .common-lngg-skli .circle-parent{font-size:0;line-height:0}
+    .skn-trz6.for-pdf .common-lngg-skli .circle-parent .circle{display:inline-block}
+    .skn-trz6.for-pdf .common-lngg-skli .paragraph .singlecolumn .fieldgroup-0:after{content:'';display:table;clear:both;line-height:0;font-size:0}
+    .skn-trz6.for-pdf .common-lngg-skli .sliced-rect, .skn-trz6 .common-lngg-skli .rating-bar{page-break-inside:avoid}
+    .skn-trz6.for-pdf .common-lngg-skli .paragraph:not(.nativeLangPara) .infobarpara .ratingWrapper, .skn-trz6.for-pdf .common-lngg-skli .paragraph:not(.nativeLangPara) .infotilepara .ratingWrapper{float:none;margin-left:52%}
+</style><style type="text/css" id="dynamic" data-time="Wed Mar 27 2024 19:13:25 GMT+0530 (India Standard Time)">
+    .skn-trz6,.skn-trz6 table{line-height:14px}
+    .skn-trz6.fontface{font-family:Century Gothic}
+    .skn-trz6.fontsize{font-size:11px}
+    .skn-trz6.pagesize{width:595px}
+    .skn-trz6 .section{padding-top:5px}
+    .skn-trz6 .left-box .section:after{padding-bottom:0px}
+    .skn-trz6 .paragraph{padding-bottom:10px}
+    .skn-trz6 .rtngSec .paragraph{padding-bottom:0px}
+    .skn-trz6 .singlecolumn,.skn-trz6 .maincolumn{word-wrap:break-word}
+    .skn-trz6 left-box .singlecolumn,.skn-trz6 left-box .maincolumn{margin-left:0px}
+    .skn-trz6 table.skills td{padding-top:0px}
+    .skn-trz6 .jobtitle, .skn-trz6 .degree, .skn-trz6 .programline{font-size:14px}
+    .skn-trz6 .name{color:#8c3c4b;font-size:36px;line-height:70px}
+    .skn-trz6 .monogram svg circle{fill:#8c3c4b}
+    .skn-trz6 .sectiontitle, .skn-trz6 .resumeTitle{font-size:16px;line-height:19px}
+    .skn-trz6 .sectiontitle{color:#8c3c4b}
+    .skn-trz6 .right-box{width:155px}
+    .skn-trz6 .firstsection + .section:before{height:-6px}
+    .skn-trz6 .left-box .heading ~ .paragraph .date-content:before{background:#8c3c4b}
+    .skn-trz6 .left-box .singlecolumn:before,.skn-trz6 .left-box .common-lngg-skli .firstparagraph .singlecolumn:before{background:#8c3c4b;top:3px}
+    .skn-trz6 .left-box .paddedline.date-content{line-height:15px}
+    .skn-trz6 .left-box .section.notdraggable+.section{padding-top:0px}
+    .skn-trz6 .left-box .multi-hilt .singlecolumn{width:calc(100% - 0px)}
+
+    /* Icon */
+    .skn-trz6 .headingIcon svg circle{fill:#8c3c4b}
+    .skn-trz6 .headingIcon{top:-6px}
+
+    /*Fixes for builder page*/
+    .skn-trz6 .sortableInner .sortable-item.active > .wrapper-bg+div[data-section]{position:relative;z-index:8}
+    .parent-drag.active.skn-trz6,._single-parent-drag.active.skn-trz6{border:0!important}
+    .skn-trz6 .ratingWrapper .default-fill{fill:#8c3c4b}
+
+    /*Hover border style*/
+    .skn-trz6.active .wrapper-bg{left:-62px !important;right:-62px !important}
+    .skn-trz6.active .acrs-bdr{left:-60px !important}
+    .skn-trz6.active .acr-edit,.skn-trz6.active .acr-delete{left:-59px !important}
+    .skn-trz6.active .acr-move{right:-59px !important}
+    
+    .skn-trz6 .SECTION_CNTC .paragraph{padding-bottom:0!important}
+    .skn-trz6 .SECTION_CNTC + .section{padding-top:15px!important}
+
+    /*PDF - To fix Section breaking issue in right-box*/
+    .skn-trz6.for-pdf .parentContainer .right-box .paragraph{margin-bottom:10px;padding-bottom:0}
+    .skn-trz6.for-pdf .parentContainer .right-box .SECTION_CNTC .paragraph{margin-bottom:0!important}
+    .skn-trz6.for-pdf .parentContainer .right-box .rtngSec .paragraph{margin-bottom:0px}
+
+    .skn-trz6 .common-lngg-skli{padding-left:0px}         
+    .skn-trz6 .common-lngg-skli .heading{width:calc(100% + 0px)}        
+    .skn-trz6 .common-lngg-skli .inner-rating,.skn-trz6 .common-lngg-skli .sliced-rect .sliced-rect-tile.ratvfill{background:#8c3c4b}
+
+    /*Circle Pattern*/
+    .skn-trz6 .circle{border-radius: 100%;display: block;height:10px;width:10px;box-sizing:border-box}
+    /*Color Change*/
+    .skn-trz6 .circle-parent .ratvfill{background:#8c3c4b}
+   
+    /* Builder css */
+    .skn-trz6 .sortable-item .circle{height:9px;width:9px}
+    .skn-trz6 .left-box .common-lngg-skli .sortableInner .sortable-item{width:100%}
+    .skn-trz6 .right-box .common-lngg-skli .sortableInner > .sortable-item .paragraph{margin-bottom:0px}
+</style></div><div class="document doc-root fontsize fontface vmargins hmargins   pagesize skn-trz6 TRZ6  ZTY   "><div id="CONTAINER_PARENT_0" class="parentContainer"><div id="CONTAINER_0" class="left-box"><div data-react-beautiful-dnd-draggable="2" class="sortable-item section-container SortableItem-sibling  data-NAME"><div class="document-tool sec-tool" id="editIcons" style="right: -22px;"></div><div id="SECTION_NAME6e3c1d1a-1f9f-428d-8678-a19fe597db77" class="section notdraggable SECTION_NAME     " data-section-cd="NAME"><div class=" doc-item"><div class=""><div class=""><div id="PARAGRAPH_NAME_c315f5de-3b9a-4ef7-9cf5-2ee23dc92462" class="paragraph PARAGRAPH_NAME firstparagraph  "><div>
+                    <div class="monogram" dependency="FNAM|LNAM">
+                        <svg height="86px" width="86px">
+                            <circle cx="43px" cy="43px" r="30px" fill="#003D74"></circle>
+                            
+                        </svg>
+                    </div>
+                    <div class="name">
+                        <div class="flname txtBold word-break">
+                            <span id="FIELD_FNAM">SHREYA</span>
+                            <span id="FIELD_LNAM">SHRIVASTAVA</span>
+                            <div class="resumeTitle placeholder-text" id="FIELD_DCTL"></div>
+                        </div>
+
+                    </div>
+                </div></div></div></div></div></div></div><div data-react-beautiful-dnd-draggable="2" class="sortable-item section-container SortableItem-sibling  data-SUMM"><div class="document-tool sec-tool" id="editIcons" style="right: -22px;"></div><div id="SECTION_SUMMdf3b7d64-6970-4656-bf42-3b5c9ffc6dc2" class="section summary notdraggable SECTION_SUMM    has-title  " data-section-cd="SUMM"><div class=" doc-item"><div class="heading"><div class="headingIcon">
+                        <svg viewBox="0 0 54 54">
+                            <circle cx="27" cy="27" r="26"></circle>
+                            <path transform="translate(11,11)" d="M31 15h-1.051C29.457 8.079 23.922 2.543 17 2.05V1a1 1 0 0 0-2 0v1.05C8.078 2.545 2.543 8.08 2.051 15H1a1 1 0 0 0 0 2h1.051C2.543 23.921 8.078 29.456 15 29.949V31a1 1 0 0 0 2 0v-1.05c6.922-.494 12.457-6.029 12.949-12.95H31a1 1 0 1 0 0-2zm-5 2h1.949c-.483 5.819-5.13 10.466-10.949 10.949V26a1 1 0 0 0-2 0v1.949C9.181 27.466 4.534 22.819 4.051 17H6a1 1 0 0 0 0-2H4.051C4.534 9.181 9.181 4.534 15 4.051V6a1 1 0 0 0 2 0V4.051c5.819.483 10.466 5.13 10.949 10.949H26a1 1 0 0 0 0 2z"></path>
+                            <path transform="translate(11,11)" d="M19 16c0-1.654-1.346-3-3-3-1.655 0-3 1.346-3 3s1.345 3 3 3 3-1.346 3-3zm-4 0c0-.551.449-1 1-1 .551 0 1 .449 1 1 0 .551-.449 1-1 1-.551 0-1-.449-1-1z"></path>
+                            <path transform="translate(11,11)" d="M17 10a1 1 0 0 0-1-1c-3.86 0-7 3.14-7 7a1 1 0 0 0 2 0c0-2.757 2.243-5 5-5a1 1 0 0 0 1-1zM22 15a1 1 0 0 0-1 1c0 2.757-2.244 5-5 5a1 1 0 1 0 0 2c3.86 0 7-3.14 7-7a1 1 0 0 0-1-1z"></path>
+                        </svg>
+                    </div><div class="sectiontitle" id="SECTIONNAME_SUMM">Professional Summary</div></div><div class=""><div class=""><div id="PARAGRAPH_SUMM_072358d9-28d4-9dc4-d193-631936012b83" class="paragraph PARAGRAPH_SUMM firstparagraph  "><div class="clearfix doc-item">
+                    <div class="singlecolumn noPind" id="FIELD_FRFM"><p>Respectful self-motivator gifted at finding reliable solutions for code issues. Experienced in Machine Learning and Deep learning and offering skills in front-end development and generative AI as well. Fluent in English, Hindi and able to work with cross-cultural, global teams.</p></div>
+                </div></div></div></div></div></div></div><div data-react-beautiful-dnd-draggable="2" class="sortable-item section-container SortableItem-sibling  data-EXPR"><div class="document-tool sec-tool" id="editIcons" style="right: -22px;"></div><div id="SECTION_EXPR76802970-9b01-4aa2-a7b8-300fb6f7e346" class="section SECTION_EXPR   multi-para has-title  " data-section-cd="EXPR"><div class=" doc-item"><div class="heading"><div class="headingIcon">
+                        <svg viewBox="0 0 54 54">
+                            <circle cx="27" cy="27" r="26"></circle>
+                            <path transform="translate(11,11)" d="M30 5.983h-7.987V4.045c0-1.655-1.345-3-3-3h-6.015c-1.655 0-3 1.345-3 3v1.938H2.001C.9 5.983 0 6.883 0 7.982V28.953c0 1.1.9 2.001 2 2.001h28c1.099 0 2-.9 2-2V7.981a2.008 2.008 0 0 0-2-1.999zM12 4.045c0-.551.447-1 1-1h6.011c.55 0 1 .447 1 1v1.938H12V4.045zM2 7.982h28v7.008H18.986v-1.025c0-1.101-.897-2-1.998-2h-1.993c-1.101 0-2 .897-2 2v1.025H2V7.982zm14.989 11.02h-1.993v-5.037h1.993v5.037zM2 28.951V16.988h10.997V19c0 1.102.897 2 2 2h1.99a2.002 2.002 0 0 0 2-2v-2.01h11.011v11.963H2.001z"></path>
+                        </svg>
+                    </div><div class="sectiontitle" id="SECTIONNAME_EXPR">Work History<span title="Rename Work History section" class="rename-section text-rename"></span></div></div><div class=""><div class="sortableInner"><div id="PARAGRAPH_EXPR_38ab3d2c-f292-42c4-906a-3c0ef962f775" class="paragraph PARAGRAPH_EXPR firstparagraph  "><div class="clearfix doc-item">
+                    <div class="paddedline date-content">
+                        <span class="jobdates" id="FIELD_JSTD" format="%Y-%m">2023-08</span><span dependency="JSTD+EDDT"> - </span>
+                        <span class="jobdates" id="FIELD_EDDT" format="%Y-%m">2023-10</span><br dependency="JTIT|COMP|JSTA|JCIT">
+                    </div>
+                    <div class="singlecolumn">
+                        <span class="paddedline" dependency="JTIT">
+                            <span class="jobtitle txtBold" id="FIELD_JTIT">ML Intern</span>
+                        </span>
+                        <span class="paddedline locationGap mb5" dependency="COMP|JSTA|JCIT|JLOC">
+                                <span class="companyname" id="FIELD_COMP">PearlThoughts</span><span dependency="COMP"></span>
+                                <span class="jobcity" id="FIELD_JCIT"></span>
+                                <span class="jobstate" id="FIELD_JSTA"></span>
+                                <span class="jobcity" id="FIELD_JLOC"></span>
+                            </span>
+                        <span class="jobline" id="FIELD_JDES"><p>Designed advanced machine learning and deployment technologies, including Langchain and OpenAI. I actively contributed to projects, leveraging these tools to tackle complex NLP challenges and boosting my proficiency in deployment pipelines and model optimization.</p></span>
+                    </div>
+                </div></div><div id="PARAGRAPH_EXPR_206191bf-11ac-46b8-970f-49df38c0c816" class="paragraph PARAGRAPH_EXPR  "><div class="clearfix doc-item">
+                    <div class="paddedline date-content">
+                        <span class="jobdates" id="FIELD_JSTD" format="%Y-%m">2023-08</span><span dependency="JSTD+EDDT"> - </span>
+                        <span class="jobdates" id="FIELD_EDDT" format="%Y-%m">2023-09</span><br dependency="JTIT|COMP|JSTA|JCIT">
+                    </div>
+                    <div class="singlecolumn">
+                        <span class="paddedline" dependency="JTIT">
+                            <span class="jobtitle txtBold" id="FIELD_JTIT">Machine Learning Intern</span>
+                        </span>
+                        <span class="paddedline locationGap mb5" dependency="COMP|JSTA|JCIT|JLOC">
+                                <span class="companyname" id="FIELD_COMP">Sigmoid Academy</span><span dependency="COMP"></span>
+                                <span class="jobcity" id="FIELD_JCIT"></span>
+                                <span class="jobstate" id="FIELD_JSTA"></span>
+                                <span class="jobcity" id="FIELD_JLOC"></span>
+                            </span>
+                        <span class="jobline" id="FIELD_JDES"><p>Designed custom algorithms for specialized computer vision applications, catering to specific client requirements using huggingface and replicate transformers.</p></span>
+                    </div>
+                </div></div></div></div></div></div></div><div data-react-beautiful-dnd-draggable="2" class="sortable-item section-container SortableItem-sibling  data-EDUC"><div class="document-tool sec-tool" id="editIcons" style="right: -22px;"></div><div id="SECTION_EDUCa76457fa-f10a-49e2-9c1a-eae614d01ea8" class="section SECTION_EDUC   multi-para has-title  " data-section-cd="EDUC"><div class=" doc-item"><div class="heading"><div class="headingIcon">
+                        <svg viewBox="0 0 54 54">
+                            <circle cx="27" cy="27" r="26"></circle>
+                            <path transform="translate(11,11)" d="M30.96 22.58v-9.217l.503-.303c.327-.194.533-.58.537-1 .004-.421-.196-.81-.518-1.014L16.44 1.848a.893.893 0 0 0-.967.004l-14.96 9.21c-.318.202-.515.587-.513 1.005.002.417.203.8.525.998l6.573 3.999a1.256 1.256 0 0 0-.133.56v9.669c0 .325.122.637.335.853.217.22 2.294 2.146 8.646 2.146 6.33 0 8.463-1.82 8.686-2.028a1.21 1.21 0 0 0 .367-.884v-9.917c0-.16-.03-.313-.082-.452l4.044-2.441v8.016c-.593.396-.995 1.124-.995 1.965 0 1.262.895 2.285 2 2.285 1.104 0 1.999-1.023 1.999-2.285 0-.845-.407-1.576-1.005-1.97zM23 26.725c-.787.432-2.866 1.282-7.054 1.282-4.214 0-6.246-.905-6.982-1.34v-8.468l6.493 3.95a.892.892 0 0 0 .937.006L23 18.17v8.556zm-7.06-6.876L3.08 12.045l12.881-7.89 12.922 7.868L15.94 19.85z"></path>
+                        </svg>
+                    </div><div class="sectiontitle" id="SECTIONNAME_EDUC">Education<span title="Rename Education section" class="rename-section text-rename"></span></div></div><div class=""><div class=""><div id="PARAGRAPH_EDUC_139ff9c8-3c28-4313-9fc2-5a62dc8d3042" class="paragraph PARAGRAPH_EDUC firstparagraph  "><div class="clearfix doc-item">
+                    <div class="paddedline date-content">
+                        <span class="xslt_static_change displayNoneThisField">Expected in </span>
+                        <span class="jobdates" id="FIELD_GRST" format="%Y-%m">2021-08</span><span dependency="GRST+GRED"> - </span>
+                        <span class="jobdates" id="FIELD_GRED" format="%Y-%m">2025-05</span>
+                    </div>
+                    <div class="singlecolumn">
+                        <span class="paddedline degreeGap txtBold" dependency="DGRE|STUY">
+                            <span class="degree" id="FIELD_DGRE">BTech</span><span dependency="DGRE+STUY">: </span><span class="programline" id="FIELD_STUY">Artificial Intelligence and Machine Learning</span>
+                        </span>
+                        <div class="paddedline pb5" dependency="SCIT|SSTA|SCHO">
+                            <span class="companyname" id="FIELD_SCHO">University School of Automation And Robotics</span><span class="joblocation jobcity" id="FIELD_SCIT"></span><span class="joblocation jobstate" id="FIELD_SSTA"></span>
+                        </div>
+                        <span id="FIELD_FRFM"><p>GPA: 8.76</p>
+<ul>
+<li><strong>Co-lead (AI)</strong>, Intel oneAPI Students Club, 2023 to 2024</li>
+<li>Completed College-level Coursework: <em>DataBase Management System, Operating Systems, Networks, Data Structures and Algorithms</em> from University School of Automation and Robotics, Delhi</li>
+</ul></span>
+                    </div>
+                </div></div></div></div></div></div></div><div data-react-beautiful-dnd-draggable="2" class="sortable-item section-container SortableItem-sibling  data-CUST"><div class="document-tool sec-tool" id="editIcons" style="right: -22px;"></div><div id="SECTION_CUSTa52c39c1-8059-5c72-1400-e6df8f18c299" class="section SECTION_CUST    has-title  " data-section-cd="CUST"><div class=" doc-item"><div class="heading"><div class="headingIcon">
+                        <svg viewBox="0 0 54 54">
+                            <circle cx="27" cy="27" r="26"></circle>
+                            <path transform="translate(11,11)" d="M11.907 19.287v9.55l5.891-5.023L32 32l-8.186-14.202 6.077-5.891H19.287l-5.085-5.21 2.232-2.232L11.97 0 0 11.969l4.465 4.465 2.233-2.232zm14.822 7.442l-7.442-4.403 3.039-3.04zM24.62 14.016l-10.604 9.55v-5.333l-5.768-5.52 4.465-4.527 5.52 5.83h6.387zm-20.155-.559L2.977 11.97l8.992-8.992 1.488 1.488z"></path>
+                        </svg>
+                    </div><div class="sectiontitle" id="SECTIONNAME_CUST">Projects<span title="Rename Projects section" class="rename-section text-rename"></span></div></div><div class=""><div class=""><div id="PARAGRAPH_CUST_fffbc6d0-3de1-432f-bb9f-e254cd457ecc" class="paragraph PARAGRAPH_CUST firstparagraph  "><div class="clearfix doc-item">
+                    <div class="singlecolumn" id="FIELD_FRFM"><ul>
+<li><strong>ChatBook:</strong> Streamlit powered Web App to Interact with your PDF files in real-time using a chat-based interface</li>
+<li><strong>Auto PCOS Detection</strong>: A machine learning pipeline to classify ultrasound images into healthy and unhealthy categories using a MobileNet-based model.</li>
+<li><strong>Sentiment Analysis from Newspaper</strong>: Data extraction from multiple article URLs and analysis of that data to procure patterns and analyze the data.</li>
+<li><strong>Wall Object Removal:</strong> A computer vision model capable of detecting and removing objects on a wall using object detection and inpainting using transformers and OpenCV.</li>
+</ul></div>
+                </div></div></div></div></div></div></div><div data-react-beautiful-dnd-draggable="2" class="sortable-item section-container SortableItem-sibling  data-CERT"><div class="document-tool sec-tool" id="editIcons" style="right: -22px;"></div><div id="SECTION_CERT552768c3-eac4-90bd-2c03-6af40cc48468" class="section SECTION_CERT    has-title  " data-section-cd="CERT"><div class=" doc-item"><div class="heading"><div class="headingIcon">
+                        <svg viewBox="0 0 54 54">
+                            <circle cx="27" cy="27" r="26"></circle>
+                            <path transform="translate(11,11)" d="M31.872 26.24l-5.785-10.88c.643-1.28.857-2.773.857-4.48C26.944 4.907 22.016 0 16.016 0c-6 0-10.927 4.907-10.927 10.88 0 1.707.428 3.2 1.071 4.48l-6 10.667c-.214.426-.214.853 0 1.066.215.427.643.64 1.072.64l4.928-1.066 1.714 4.693c.214.213.429.64.857.64.429 0 .643-.213.857-.427l5.143-9.6h2.142l5.143 9.6c.214.427.428.427.857.427.428 0 .643-.213.857-.64l1.714-4.693 4.928 1.066c.429 0 .857 0 1.071-.426.643-.427.643-.854.429-1.067zM9.16 28.587l-1.286-3.414c-.214-.426-.643-.853-1.071-.64l-3.643.854 4.286-7.68c1.5 1.92 3.428 3.2 5.785 4.053L9.16 28.587zm6.856-8.747c-4.928 0-8.999-4.053-8.999-8.96 0-4.907 4.071-8.96 9-8.96 4.927 0 8.998 4.053 8.998 8.96 0 4.907-4.07 8.96-8.999 8.96zm9.428 4.48c-.429-.213-1.071.213-1.071.64l-1.286 3.627-3.857-7.04c2.357-.64 4.5-2.134 5.785-4.054l4.286 7.68-3.857-.853z"></path>
+                        </svg>
+                    </div><div class="sectiontitle" id="SECTIONNAME_CERT">Certifications<span title="Rename Certifications section" class="rename-section text-rename"></span></div></div><div class=""><div class="sortableInner"><div id="PARAGRAPH_CERT_ac1c7445-e3b8-4ddf-ae61-667e452cba76" class="paragraph PARAGRAPH_CERT firstparagraph  "><div class="clearfix doc-item">
+                    <div class="paddedline date-content">
+                        <span class="jobdates" id="FIELD_DATE" format="%Y-%m"></span>
+                    </div>
+                    <div class="singlecolumn">
+                        <div id="FIELD_FRFM">Machine Learning Specialisation, Stanford, DeepLearning.AI</div>
+                    </div>
+                </div></div><div id="PARAGRAPH_CERT_28ed9d3d-3fb6-4a16-bbbc-93092e266607" class="paragraph PARAGRAPH_CERT  "><div class="clearfix doc-item">
+                    <div class="paddedline date-content">
+                        <span class="jobdates" id="FIELD_DATE" format="%Y-%m"></span>
+                    </div>
+                    <div class="singlecolumn">
+                        <div id="FIELD_FRFM">Career Essentials in Generative AI, Microsoft and LinkedIn</div>
+                    </div>
+                </div></div><div id="PARAGRAPH_CERT_3ce1faac-30c0-471d-be52-861750165e80" class="paragraph PARAGRAPH_CERT  "><div class="clearfix doc-item">
+                    <div class="paddedline date-content">
+                        <span class="jobdates" id="FIELD_DATE" format="%Y-%m"></span>
+                    </div>
+                    <div class="singlecolumn">
+                        <div id="FIELD_FRFM">Introducing Generative AI with AWS, Udacity and AWS</div>
+                    </div>
+                </div></div><div id="PARAGRAPH_CERT_005d2100-f48f-4d72-9065-80ca1e931e16" class="paragraph PARAGRAPH_CERT  "><div class="clearfix doc-item">
+                    <div class="paddedline date-content">
+                        <span class="jobdates" id="FIELD_DATE" format="%Y-%m"></span>
+                    </div>
+                    <div class="singlecolumn">
+                        <div id="FIELD_FRFM">Data Visualization Using Python, IBM</div>
+                    </div>
+                </div></div></div></div></div></div></div><div data-react-beautiful-dnd-draggable="2" class="sortable-item section-container SortableItem-sibling  data-CUST"><div class="document-tool sec-tool" id="editIcons" style="right: -22px;"></div><div id="SECTION_CUST1cfc2d1c-9dc4-5e87-37b2-d9b0bf15db50" class="section SECTION_CUST    has-title  " data-section-cd="CUST"><div class=" doc-item"><div class="heading"><div class="headingIcon">
+                        <svg viewBox="0 0 54 54">
+                            <circle cx="27" cy="27" r="26"></circle>
+                            <path transform="translate(11,11)" d="M11.907 19.287v9.55l5.891-5.023L32 32l-8.186-14.202 6.077-5.891H19.287l-5.085-5.21 2.232-2.232L11.97 0 0 11.969l4.465 4.465 2.233-2.232zm14.822 7.442l-7.442-4.403 3.039-3.04zM24.62 14.016l-10.604 9.55v-5.333l-5.768-5.52 4.465-4.527 5.52 5.83h6.387zm-20.155-.559L2.977 11.97l8.992-8.992 1.488 1.488z"></path>
+                        </svg>
+                    </div><div class="sectiontitle" id="SECTIONNAME_CUST">Achievements<span title="Rename Achievements section" class="rename-section text-rename"></span></div></div><div class=""><div class=""><div id="PARAGRAPH_CUST_a3b6aaa6-ef0a-1ec9-5324-0670ed497868" class="paragraph PARAGRAPH_CUST firstparagraph  "><div class="clearfix doc-item">
+                    <div class="singlecolumn" id="FIELD_FRFM"><ul>
+<li>Contributed to 5 plus repositories on GitHub to earn a<strong> Hacktoberfest ‘23 Contributor</strong> badge</li>
+<li><strong>Organized</strong> a machine learning competition <strong>ML Mania</strong> in Azintek ‘23 Tech Fest</li>
+<li><strong>200+</strong> problems solved (Leetcode+GFG)</li>
+</ul>
+</div>
+
+                </div></div></div></div></div></div></div>
+            </div><div id="CONTAINER_1" class="right-box"><div data-react-beautiful-dnd-draggable="2" class="sortable-item section-container SortableItem-sibling  data-PICT"><div class="document-tool sec-tool" id="editIcons" style="right: -22px;"></div><div id="SECTION_PICT0f3b0d02-5b21-b9b3-92ef-c77b4fdc4c3e" class="section photo notdraggable SECTION_PICT firstsection    " data-section-cd="PICT"><div class=" doc-item"><div class=""><div class=""><div id="PARAGRAPH_PICT_23824ec8-09dd-4cee-b9d2-8c2d83eb9588" class="paragraph PARAGRAPH_PICT firstparagraph  "><div class="clearfix doc-item">
+                    <div class="prflPic">
+                        <div id="FIELD_PURL"><img class="chk" src="https://intlphotos.blob.core.windows.net/photos/in/6fbacab0-a4a8-433c-95aa-45d05d516a69.jpeg?0.663903469019526" alt="Smiley face"></div>
+                    </div>
+                    <div class="clear"></div>
+                </div></div></div></div></div></div></div><div data-react-beautiful-dnd-draggable="2" class="sortable-item section-container SortableItem-sibling  data-CNTC"><div class="document-tool sec-tool" id="editIcons" style="right: -22px;"></div><div id="SECTION_CNTC36a74eb3-186c-46b3-8070-854742777928" class="section SECTION_CNTC notdraggable    has-title  " data-section-cd="CNTC"><div class=" doc-item"><div class="heading"><div class="headingIcon">
+                        <svg viewBox="0 0 54 54">
+                            <circle cx="27" cy="27" r="26"></circle>
+                            <path transform="translate(11,11)" d="M31.85 27.626c-1.38-3.684-3.906-4.604-5.973-4.835-1.608-.23-3.216-.92-3.905-1.38v-2.533c1.838-2.302 2.986-5.295 2.986-7.828C24.958 4.835 21.972 0 16 0c-5.972 0-8.958 5.065-8.958 11.05 0 2.763 1.148 5.756 2.986 7.828v2.762c-.69.46-2.297.921-3.905 1.382-2.067.23-4.364 1.15-5.972 4.834-.23.46-.23 1.151.23 1.612C1.759 31.54 9.798 32 16 32c6.432 0 14.241-.46 15.62-2.532.459-.46.459-1.151.23-1.842zM16 1.842c4.594 0 7.152 4.394 7.152 9.228-.28 4.546-2.666 8.112-7.232 8.456-4.449-.462-6.926-4.804-7.04-8.573 0-4.604 2.526-9.111 7.12-9.111zm0 28.086c-12.174 0-14.012-1.611-14.012-1.611 1.149-2.993 2.757-3.454 4.365-3.684 1.837-.23 3.675-.92 4.594-1.381l.918-.46v-2.073c1.149.921 2.527 1.382 4.135 1.382 1.378 0 2.756-.46 3.905-1.382v2.072l.919.46c.918.461 2.756 1.152 4.594 1.382 1.607.23 3.215.69 4.364 3.684.23 0-1.608 1.611-13.782 1.611z"></path>
+                        </svg>
+                    </div><div class="sectiontitle" id="SECTIONNAME_CNTC">Contact<span title="Rename Contact section" class="rename-section text-rename"></span></div></div><div class=""><div class=""><div id="PARAGRAPH_CNTC_fc4d9227-2a74-4b8c-bae1-efa279515a7d" class="paragraph PARAGRAPH_CNTC firstparagraph  "><div class="clearfix doc-item">
+                    <div class="address">
+                        <div class="singlecolumn">
+                            <div dependency="STRT|CITY|STAT|ZIPC|ADDR">
+                                <div class="txtBold"><span class="xslt_static_change">Address </span></div>
+                                <div id="FIELD_STRT"></div>
+                                <span id="FIELD_CITY"></span>
+                                <span id="FIELD_STAT"></span>
+                                <span id="FIELD_ZIPC"></span>
+                                <span id="FIELD_ADDR">Delhi, Delhi 110032</span>
+                            </div>
+                            <div class="txtBold pt5" dependency="HPHN|CPHN"><span class="xslt_static_change">Phone </span></div>
+                            <div dependency="HPHN">
+                                <span id="FIELD_HPHN">+91-9039277120</span>
+                            </div>
+                            
+                            <div class="txtBold pt5" dependency="EMAI"><span class="xslt_static_change">E-mail </span></div>
+                            <div dependency="EMAI" class="word-break">
+                                <span id="FIELD_EMAI">shreya2202shri@gmail.com</span>
+                            </div>
+
+                            <div dependency="SOCL">
+                                
+                            <div id="CATEGORY_SOCIAL_SOCL" class="pt5">
+                                    <div id="DOCDATAINFO_SOCL" class="txtBold">LinkedIn</div>
+                                    <div id="FIELD_SOCL">https://www.linkedin.com/in/shrinolo/</div>
+                                </div><div id="CATEGORY_SOCIAL_SOCL" class="pt5">
+                                    <div id="DOCDATAINFO_SOCL" class="txtBold">WWW</div>
+                                    <div id="FIELD_SOCL">https://sites.google.com/view/shreya-portf/home</div>
+                                </div><div id="CATEGORY_SOCIAL_SOCL" class="pt5">
+                                    <div id="DOCDATAINFO_SOCL" class="txtBold">WWW</div>
+                                    <div id="FIELD_SOCL">https://www.linkedin.com/in/shrinolo/</div>
+                                </div></div>
+                        </div>
+                    </div>
+                </div></div></div></div></div></div></div><div data-react-beautiful-dnd-draggable="2" class="sortable-item section-container SortableItem-sibling  data-ALNK"><div class="document-tool sec-tool" id="editIcons" style="right: -22px;"></div><div id="SECTION_ALNK9be92b12-0b68-285f-b9e0-c36eecfe4a13" class="section SECTION_ALNK    has-title  " data-section-cd="ALNK"><div class=" doc-item"><div class="heading"><div class="headingIcon">
+                        <svg viewBox="0 0 54 54">
+                            <circle cx="27" cy="27" r="26"></circle>
+                            <path d="M20.3,39.5c-1.5,0-3-0.6-4.1-1.7c-2.3-2.3-2.3-5.9,0-8.2l3.6-3.6c0.4-0.4,1-0.4,1.4,0s0.4,1,0,1.4L17.6,31 c-1.5,1.5-1.5,3.9,0,5.4c1.5,1.5,3.9,1.5,5.4,0l5.3-5.3c1.5-1.5,1.5-3.9,0-5.4c-0.4-0.4-0.4-1,0-1.4c0.4-0.4,1-0.4,1.4,0 c2.3,2.3,2.3,5.9,0,8.2l-5.3,5.3C23.2,38.9,21.8,39.5,20.3,39.5z"></path>
+                            <path d="M25.1,29.9c-0.3,0-0.5-0.1-0.7-0.3c-2.3-2.3-2.3-5.9,0-8.2l5.3-5.3c2.3-2.3,5.9-2.3,8.2,0c2.3,2.3,2.3,5.9,0,8.2L34.2,28c-0.4,0.4-1,0.4-1.4,0s-0.4-1,0-1.4l3.6-3.6c1.5-1.5,1.5-3.9,0-5.4c-1.5-1.5-3.9-1.5-5.4,0l-5.3,5.3 c-1.5,1.5-1.5,3.9,0,5.4c0.4,0.4,0.4,1,0,1.4C25.6,29.8,25.3,29.9,25.1,29.9z"></path>
+                            </svg>
+                    </div><div class="sectiontitle" id="SECTIONNAME_ALNK">Websites, Portfolios, Profiles<span title="Rename Websites, Portfolios, Profiles section" class="rename-section text-rename"></span></div></div><div class=""><div class=""><div id="PARAGRAPH_ALNK_50687c59-bea5-5b5a-9097-0448e2e2a146" class="paragraph PARAGRAPH_ALNK firstparagraph  "><div class="clearfix doc-item">
+                    <div class="singlecolumn">
+                        <ul>
+                            <li dependency="LNK1"><span id="FIELD_LNK1">https://sites.google.com/view/shreya-portf/home</span></li>
+                            
+                            <li dependency="LNK3"><span id="FIELD_LNK3">https://github.com/shrivastavanolo</span></li>
+                            
+                        <li dependency="LNK4" class="fieldrept_lnk4-n"><span id="FIELD_LNK4">https://medium.com/@shreya2202shri</span></li></ul>
+                    </div>
+                </div></div></div></div></div></div></div><div data-react-beautiful-dnd-draggable="2" class="sortable-item section-container SortableItem-sibling  data-HILT"><div class="document-tool sec-tool" id="editIcons" style="right: -22px;"></div><div id="SECTION_HILT8b84cb6a-16cc-4ff8-9f5a-d287d4794ef5" class="section rtngSec SECTION_HILT    has-title  " data-section-cd="HILT"><div class=" doc-item"><div class="heading"><div class="headingIcon">
+                        <svg viewBox="0 0 54 54">
+                            <circle cx="27" cy="27" r="26"></circle>
+                            <path transform="translate(11,11)" d="M31.36 14.293l-3.413-3.413c2.133-.64 3.84-2.773 3.84-5.333C31.787 2.56 29.227 0 26.24 0c-2.347 0-4.48 1.707-5.333 3.84l-3.2-3.2c-.854-.853-2.56-.853-3.414 0L9.6 5.333c-.213.427-.213.854-.213 1.28.213.427.64.64 1.066.427h.64c2.134 0 3.84 1.707 3.84 4.053 0 2.134-1.493 4.054-3.84 4.054-2.133 0-4.053-1.92-4.053-4.054v-.64a1.63 1.63 0 0 0-.427-1.066c-.213-.427-.64-.427-.853 0L.64 14.293c-.853.854-.853 2.347 0 3.414L14.293 31.36c.427.427 1.067.64 1.707.64.64 0 1.28-.213 1.707-.64L31.36 17.707c.853-.854.853-2.56 0-3.414zm-1.493 1.92L16.213 29.867c-.213.213-.426.213-.64 0L2.133 16.213c-.213 0-.213-.426 0-.426l3.414-3.414a5.953 5.953 0 0 0 5.76 4.48c3.2 0 5.76-2.56 5.76-5.973 0-2.773-1.707-5.12-4.267-5.76l2.987-2.987c.213-.213.426-.213.64 0l4.906 4.907c.214.213.854.427 1.067.213.427-.213.64-.64.64-1.066v-.214-.213c0-1.92 1.493-3.413 3.413-3.413 1.92 0 3.414 1.493 3.414 3.413 0 1.92-1.494 3.413-3.414 3.413h-.426c-.427 0-.854.214-1.067.64-.213.427-.213.854.213 1.067l4.694 4.907c.213 0 .213.426 0 .426z"></path>
+                        </svg>
+                    </div><div class="sectiontitle" id="SECTIONNAME_HILT">Skills<span title="Rename Skills section" class="rename-section text-rename"></span></div></div><div class=""><div class="sortableInner"><div id="PARAGRAPH_HILT_ac930840-07cd-45f9-907f-50a30f0abab8" class="paragraph PARAGRAPH_HILT firstparagraph  "><div class="clearfix doc-item">
+                    <div class="singlecolumn maincolumn">
+                        <span class="paddedline" id="FIELD_SKC1"><p>Machine Learning</p></span>
+                        <div class="ratingWrapper" dependency="RATV">
+                            <div class="noLnht">
+                                <svg viewBox="0 0 500 100" id="FIELD_RATV" type="count">
+                                    <circle cx="50" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="150" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="250" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="350" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="450" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                </svg>
+                            </div>
+                            <span class="paddedline" id="FIELD_RATT"></span>
+                        </div>
+                    </div>
+                </div></div><div id="PARAGRAPH_HILT_7cdb425e-ee8d-43fb-872c-94333229193e" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                    <div class="singlecolumn maincolumn">
+                        <span class="paddedline" id="FIELD_SKC1">Data Scraping</span>
+                        <div class="ratingWrapper" dependency="RATV">
+                            <div class="noLnht">
+                                <svg viewBox="0 0 500 100" id="FIELD_RATV" type="count">
+                                    <circle cx="50" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="150" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="250" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="350" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="450" cy="50" r="40" fill="#d5d6d6"></circle>
+                                </svg>
+                            </div>
+                            <span class="paddedline" id="FIELD_RATT"></span>
+                        </div>
+                    </div>
+                </div></div><div id="PARAGRAPH_HILT_e88d5793-7d81-4dad-8e93-e19631191d7b" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                    <div class="singlecolumn maincolumn">
+                        <span class="paddedline" id="FIELD_SKC1">DBMS</span>
+                        <div class="ratingWrapper" dependency="RATV">
+                            <div class="noLnht">
+                                <svg viewBox="0 0 500 100" id="FIELD_RATV" type="count">
+                                    <circle cx="50" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="150" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="250" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="350" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="450" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                </svg>
+                            </div>
+                            <span class="paddedline" id="FIELD_RATT"></span>
+                        </div>
+                    </div>
+                </div></div><div id="PARAGRAPH_HILT_f03f96a5-8624-47d7-96bc-423d59b397ce" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                    <div class="singlecolumn maincolumn">
+                        <span class="paddedline" id="FIELD_SKC1">Deep Learning</span>
+                        <div class="ratingWrapper" dependency="RATV">
+                            <div class="noLnht">
+                                <svg viewBox="0 0 500 100" id="FIELD_RATV" type="count">
+                                    <circle cx="50" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="150" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="250" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="350" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="450" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                </svg>
+                            </div>
+                            <span class="paddedline" id="FIELD_RATT"></span>
+                        </div>
+                    </div>
+                </div></div><div id="PARAGRAPH_HILT_4df49da9-589c-4587-84f5-c112dedfd2f9" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                    <div class="singlecolumn maincolumn">
+                        <span class="paddedline" id="FIELD_SKC1">Data Visualisation</span>
+                        <div class="ratingWrapper" dependency="RATV">
+                            <div class="noLnht">
+                                <svg viewBox="0 0 500 100" id="FIELD_RATV" type="count">
+                                    <circle cx="50" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="150" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="250" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="350" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="450" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                </svg>
+                            </div>
+                            <span class="paddedline" id="FIELD_RATT"></span>
+                        </div>
+                    </div>
+                </div></div><div id="PARAGRAPH_HILT_4a4aaa0c-69d8-40c1-96e6-cfc331f2a220" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                    <div class="singlecolumn maincolumn">
+                        <span class="paddedline" id="FIELD_SKC1">Python</span>
+                        <div class="ratingWrapper" dependency="RATV">
+                            <div class="noLnht">
+                                <svg viewBox="0 0 500 100" id="FIELD_RATV" type="count">
+                                    <circle cx="50" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="150" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="250" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="350" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="450" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                </svg>
+                            </div>
+                            <span class="paddedline" id="FIELD_RATT"></span>
+                        </div>
+                    </div>
+                </div></div><div id="PARAGRAPH_HILT_f950f852-42ff-427c-82b8-aec62b15206a" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                    <div class="singlecolumn maincolumn">
+                        <span class="paddedline" id="FIELD_SKC1">Artificial Intelligence</span>
+                        <div class="ratingWrapper" dependency="RATV">
+                            <div class="noLnht">
+                                <svg viewBox="0 0 500 100" id="FIELD_RATV" type="count">
+                                    <circle cx="50" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="150" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="250" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="350" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="450" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                </svg>
+                            </div>
+                            <span class="paddedline" id="FIELD_RATT"></span>
+                        </div>
+                    </div>
+                </div></div><div id="PARAGRAPH_HILT_51bdc37e-2062-4423-aa4c-26935a92fe29" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                    <div class="singlecolumn maincolumn">
+                        <span class="paddedline" id="FIELD_SKC1">Java</span>
+                        <div class="ratingWrapper" dependency="RATV">
+                            <div class="noLnht">
+                                <svg viewBox="0 0 500 100" id="FIELD_RATV" type="count">
+                                    <circle cx="50" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="150" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="250" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="350" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="450" cy="50" r="40" fill="#d5d6d6"></circle>
+                                </svg>
+                            </div>
+                            <span class="paddedline" id="FIELD_RATT"></span>
+                        </div>
+                    </div>
+                </div></div><div id="PARAGRAPH_HILT_421dea40-e521-4d85-bac1-120c6f2ca7ec" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                    <div class="singlecolumn maincolumn">
+                        <span class="paddedline" id="FIELD_SKC1">MS Excel</span>
+                        <div class="ratingWrapper" dependency="RATV">
+                            <div class="noLnht">
+                                <svg viewBox="0 0 500 100" id="FIELD_RATV" type="count">
+                                    <circle cx="50" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="150" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="250" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="350" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="450" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                </svg>
+                            </div>
+                            <span class="paddedline" id="FIELD_RATT"></span>
+                        </div>
+                    </div>
+                </div></div><div id="PARAGRAPH_HILT_4128a4b9-6fdc-4e43-97f6-35c2eaded412" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                    <div class="singlecolumn maincolumn">
+                        <span class="paddedline" id="FIELD_SKC1">NLP</span>
+                        <div class="ratingWrapper" dependency="RATV">
+                            <div class="noLnht">
+                                <svg viewBox="0 0 500 100" id="FIELD_RATV" type="count">
+                                    <circle cx="50" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="150" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="250" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="350" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="450" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                </svg>
+                            </div>
+                            <span class="paddedline" id="FIELD_RATT"></span>
+                        </div>
+                    </div>
+                </div></div><div id="PARAGRAPH_HILT_7fa58b94-c44f-4ced-9703-f25e0f215b8b" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                    <div class="singlecolumn maincolumn">
+                        <span class="paddedline" id="FIELD_SKC1">Computer Vision</span>
+                        <div class="ratingWrapper" dependency="RATV">
+                            <div class="noLnht">
+                                <svg viewBox="0 0 500 100" id="FIELD_RATV" type="count">
+                                    <circle cx="50" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="150" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="250" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="350" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="450" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                </svg>
+                            </div>
+                            <span class="paddedline" id="FIELD_RATT"></span>
+                        </div>
+                    </div>
+                </div></div><div id="PARAGRAPH_HILT_33681cac-1942-4589-ad85-819a7d42a0f4" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                    <div class="singlecolumn maincolumn">
+                        <span class="paddedline" id="FIELD_SKC1">Generative AI</span>
+                        <div class="ratingWrapper" dependency="RATV">
+                            <div class="noLnht">
+                                <svg viewBox="0 0 500 100" id="FIELD_RATV" type="count">
+                                    <circle cx="50" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="150" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="250" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="350" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="450" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                </svg>
+                            </div>
+                            <span class="paddedline" id="FIELD_RATT"></span>
+                        </div>
+                    </div>
+                </div></div><div id="PARAGRAPH_HILT_255286c4-2b49-4d11-8295-4b719f7bca7f" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                    <div class="singlecolumn maincolumn">
+                        <span class="paddedline" id="FIELD_SKC1">DSA</span>
+                        <div class="ratingWrapper" dependency="RATV">
+                            <div class="noLnht">
+                                <svg viewBox="0 0 500 100" id="FIELD_RATV" type="count">
+                                    <circle cx="50" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="150" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="250" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="350" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="450" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                </svg>
+                            </div>
+                            <span class="paddedline" id="FIELD_RATT"></span>
+                        </div>
+                    </div>
+                </div></div><div id="PARAGRAPH_HILT_b8022fc3-6dc1-4f85-ad0f-3250606acfae" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                    <div class="singlecolumn maincolumn">
+                        <span class="paddedline" id="FIELD_SKC1">Networks</span>
+                        <div class="ratingWrapper" dependency="RATV">
+                            <div class="noLnht">
+                                <svg viewBox="0 0 500 100" id="FIELD_RATV" type="count">
+                                    <circle cx="50" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="150" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="250" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="350" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="450" cy="50" r="40" fill="#d5d6d6"></circle>
+                                </svg>
+                            </div>
+                            <span class="paddedline" id="FIELD_RATT"></span>
+                        </div>
+                    </div>
+                </div></div><div id="PARAGRAPH_HILT_d44faee7-15cb-4e62-b447-bccc468e9cfe" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                    <div class="singlecolumn maincolumn">
+                        <span class="paddedline" id="FIELD_SKC1">AWS</span>
+                        <div class="ratingWrapper" dependency="RATV">
+                            <div class="noLnht">
+                                <svg viewBox="0 0 500 100" id="FIELD_RATV" type="count">
+                                    <circle cx="50" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="150" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="250" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="350" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="450" cy="50" r="40" fill="#d5d6d6"></circle>
+                                </svg>
+                            </div>
+                            <span class="paddedline" id="FIELD_RATT"></span>
+                        </div>
+                    </div>
+                </div></div><div id="PARAGRAPH_HILT_10fe477c-7766-40e6-96cc-a6c403d56043" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                    <div class="singlecolumn maincolumn">
+                        <span class="paddedline" id="FIELD_SKC1">Tableau</span>
+                        <div class="ratingWrapper" dependency="RATV">
+                            <div class="noLnht">
+                                <svg viewBox="0 0 500 100" id="FIELD_RATV" type="count">
+                                    <circle cx="50" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="150" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="250" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="350" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="450" cy="50" r="40" fill="#d5d6d6"></circle>
+                                </svg>
+                            </div>
+                            <span class="paddedline" id="FIELD_RATT"></span>
+                        </div>
+                    </div>
+                </div></div><div id="PARAGRAPH_HILT_36405663-8e1a-4a49-a08d-ddacce4a890b" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                    <div class="singlecolumn maincolumn">
+                        <span class="paddedline" id="FIELD_SKC1">React.js</span>
+                        <div class="ratingWrapper" dependency="RATV">
+                            <div class="noLnht">
+                                <svg viewBox="0 0 500 100" id="FIELD_RATV" type="count">
+                                    <circle cx="50" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="150" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="250" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="350" cy="50" r="40" fill="#8c3c4b" class="default-fill"></circle>
+                                    <circle cx="450" cy="50" r="40" fill="#d5d6d6"></circle>
+                                </svg>
+                            </div>
+                            <span class="paddedline" id="FIELD_RATT"></span>
+                        </div>
+                    </div>
+                </div></div></div></div></div></div></div></div></div></div><div></div></div>
+
+<!-- <div class="recharts-responsive-container" style="width: 100%; height: 100%; min-width: 0px; min-height: 300px;" width="561.59375" height="300"><div class="recharts-wrapper" role="region" style="position: relative; cursor: default; width: 562px; height: 300px;"><svg cx="50%" cy="50%" class="recharts-surface" width="562" height="300" viewBox="0 0 562 300"><title></title><desc></desc><defs><clipPath id="recharts1-clip"><rect x="5" y="5" height="290" width="552"></rect></clipPath></defs><g class="recharts-polar-grid"><g class="recharts-polar-grid-angle"><line stroke="#ccc" cx="281" cy="150" x1="281" y1="150" x2="281" y2="34"></line><line stroke="#ccc" cx="281" cy="150" x1="281" y1="150" x2="381.4589468389949" y2="92"></line><line stroke="#ccc" cx="281" cy="150" x1="281" y1="150" x2="381.4589468389949" y2="208"></line><line stroke="#ccc" cx="281" cy="150" x1="281" y1="150" x2="281" y2="266"></line><line stroke="#ccc" cx="281" cy="150" x1="281" y1="150" x2="180.5410531610051" y2="208"></line><line stroke="#ccc" cx="281" cy="150" x1="281" y1="150" x2="180.54105316100512" y2="91.99999999999999"></line></g><g class="recharts-polar-grid-concentric"><path stroke="#ccc" cx="281" cy="150" radius="0" fill="none" class="recharts-polar-grid-concentric-polygon" d="M 281,150L 281,150L 281,150L 281,150L 281,150L 281,150Z"></path><path stroke="#ccc" cx="281" cy="150" radius="29" fill="none" class="recharts-polar-grid-concentric-polygon" d="M 281,121L 306.11473670974874,135.5L 306.11473670974874,164.5L 281,179L 255.8852632902513,164.5L 255.8852632902513,135.5Z"></path><path stroke="#ccc" cx="281" cy="150" radius="58" fill="none" class="recharts-polar-grid-concentric-polygon" d="M 281,92L 331.2294734194974,121L 331.2294734194974,179L 281,208L 230.77052658050255,179L 230.77052658050258,121Z"></path><path stroke="#ccc" cx="281" cy="150" radius="87" fill="none" class="recharts-polar-grid-concentric-polygon" d="M 281,63L 356.34421012924616,106.5L 356.34421012924616,193.5L 281,237L 205.65578987075384,193.5L 205.65578987075384,106.5Z"></path><path stroke="#ccc" cx="281" cy="150" radius="116" fill="none" class="recharts-polar-grid-concentric-polygon" d="M 281,34L 381.4589468389949,92L 381.4589468389949,208L 281,266L 180.5410531610051,208L 180.54105316100512,91.99999999999999Z"></path></g></g><g class="recharts-layer recharts-polar-angle-axis"><path cx="281" cy="150" orientation="outer" radius="116" fill="none" class="recharts-polygon angleAxis" d="M281,34L381.4589468389949,92L381.4589468389949,208L281,266L180.5410531610051,208L180.54105316100512,91.99999999999999L281,34Z"></path><g class="recharts-layer recharts-polar-angle-axis-ticks"><g class="recharts-layer recharts-polar-angle-axis-tick"><line class="angleAxis" cx="281" cy="150" orientation="outer" radius="116" fill="none" x1="281" y1="34" x2="281" y2="26"></line><text cx="281" cy="150" orientation="outer" radius="116" stroke="none" x="281" y="26" class="recharts-text recharts-polar-angle-axis-tick-value" text-anchor="middle" fill="#8d3c4b"><tspan x="281" dy="0em">Data Engineering</tspan></text></g><g class="recharts-layer recharts-polar-angle-axis-tick"><line class="angleAxis" cx="281" cy="150" orientation="outer" radius="116" fill="none" x1="381.4589468389949" y1="92" x2="388.38715006927043" y2="88"></line><text cx="281" cy="150" orientation="outer" radius="116" stroke="none" x="388.38715006927043" y="88" class="recharts-text recharts-polar-angle-axis-tick-value" text-anchor="start" fill="#8d3c4b"><tspan x="388.38715006927043" dy="0em">Operations Research</tspan></text></g><g class="recharts-layer recharts-polar-angle-axis-tick"><line class="angleAxis" cx="281" cy="150" orientation="outer" radius="116" fill="none" x1="381.4589468389949" y1="208" x2="388.38715006927043" y2="212"></line><text cx="281" cy="150" orientation="outer" radius="116" stroke="none" x="388.38715006927043" y="212" class="recharts-text recharts-polar-angle-axis-tick-value" text-anchor="start" fill="#8d3c4b"><tspan x="388.38715006927043" dy="0em">Software Development</tspan></text></g><g class="recharts-layer recharts-polar-angle-axis-tick"><line class="angleAxis" cx="281" cy="150" orientation="outer" radius="116" fill="none" x1="281" y1="266" x2="281" y2="274"></line><text cx="281" cy="150" orientation="outer" radius="116" stroke="none" x="281" y="274" class="recharts-text recharts-polar-angle-axis-tick-value" text-anchor="middle" fill="#8d3c4b"><tspan x="281" dy="0em">Artificial Intelligence</tspan></text></g><g class="recharts-layer recharts-polar-angle-axis-tick"><line class="angleAxis" cx="281" cy="150" orientation="outer" radius="116" fill="none" x1="180.5410531610051" y1="208" x2="173.6128499307296" y2="212"></line><text cx="281" cy="150" orientation="outer" radius="116" stroke="none" x="173.6128499307296" y="212" class="recharts-text recharts-polar-angle-axis-tick-value" text-anchor="end" fill="#8d3c4b"><tspan x="173.6128499307296" dy="0em">Data Science &amp; Analytics</tspan></text></g><g class="recharts-layer recharts-polar-angle-axis-tick"><line class="angleAxis" cx="281" cy="150" orientation="outer" radius="116" fill="none" x1="180.54105316100512" y1="91.99999999999999" x2="173.61284993072962" y2="87.99999999999999"></line><text cx="281" cy="150" orientation="outer" radius="116" stroke="none" x="173.61284993072962" y="87.99999999999999" class="recharts-text recharts-polar-angle-axis-tick-value" text-anchor="end" fill="#8d3c4b"><tspan x="173.61284993072962" dy="0em">Business &amp; Entrepreneurship</tspan></text></g></g></g><g class="recharts-layer recharts-radar"><g class="recharts-layer recharts-radar-polygon"><path name="Skills" stroke="#9C6ED9" fill="#8d3c4b" fill-opacity="0.6" class="recharts-polygon" d="M281,135.5L293.55736835487437,142.75L368.90157848412053,200.75L281,266L205.65578987075384,193.5L255.8852632902513,135.5L281,135.5Z"></path></g></g></svg><div tabindex="-1" role="dialog" class="recharts-tooltip-wrapper recharts-tooltip-wrapper-right recharts-tooltip-wrapper-bottom" style="pointer-events: none; visibility: hidden; position: absolute; top: 0px; left: 0px; transform: translate(195.344px, 104.773px);"><div class="recharts-default-tooltip" style="margin: 0px; padding: 10px; background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); white-space: nowrap;"><p class="recharts-tooltip-label" style="margin: 0px;">Business &amp; Entrepreneurship</p></div></div></div></div> -->
+
 </body>
 </html>
